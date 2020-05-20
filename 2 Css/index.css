@@ -1,0 +1,64 @@
+p {
+  color: coral;
+}
+
+#id {
+  color: red;
+}
+
+.classe {
+  color: green;
+}
+
+/* p {
+  color: purple;
+} */
+
+.italico {
+  font-style: italic;
+}
+
+.quadrado {
+  height: 100px;
+  width: 100px;
+  background-color: royalblue;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .quadrado {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    
+ }
+}
+
+.pai {
+  height: 100px;
+  width: 100px;
+}
+
+.quadrado2 {
+  height: 50%;
+  width: 50%;
+  background-color: purple;
+  margin-left: 100px;
+  margin-top: 25px;
+  display: none;
+}
+
+/* .quadrado2 {
+  height: 20vh;
+  width: 20vw;
+  background-color: purple;
+  margin-left: 100px;
+  margin-top: 25px;
+} */
+
+.imagem {
+ background-image: url("../Html/logo.jpg"); 
+ height: 150px;
+ background-repeat: no-repeat;
+}
