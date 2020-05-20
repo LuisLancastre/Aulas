@@ -1,0 +1,39 @@
+body {
+  margin: 5px;
+}
+
+.contentor {
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(42, 41, 116);
+  height: 500px;
+  display: flex;
+  /* Verticalmente
+  align-items: center;
+  Horizontalmente
+  justify-content: center; */
+}
+
+.item {
+  border: 2px;
+  border-style: solid;
+  border-color: gray;
+  height: 100px;
+  width: 250px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item2 {
+  border: 2px;
+  border-style: solid;
+  border-color: gray;
+  height: 100px;
+  width: 250px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
