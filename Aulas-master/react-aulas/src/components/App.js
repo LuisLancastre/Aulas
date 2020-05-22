@@ -1,24 +1,17 @@
 import React from "react";
-import logo from "../Assets/images/logo.svg";
+import logo from "../assets/images/logo.svg";
 import "../styles/App.css";
+import { Propriedades } from "./2 props/props";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>hey</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Propriedades texto="ola do componente" cor="blue" />
+      <Propriedades texto="ola do componente 2" cor="red" />
+      <Propriedades texto="ola do componente 3" cor="pink" />
     </div>
   );
 }
